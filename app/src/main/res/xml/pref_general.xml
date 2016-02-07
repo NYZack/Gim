@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_URL"
+        android:inputType="textUri"
+        android:key="URL"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_bitmap_size"
+        android:inputType="number"
+        android:key="bitmap_size"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_bitmap_size" />
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_compression"
+        android:inputType="number"
+        android:key="compression"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_compression" />
+
+
+
+</PreferenceScreen>
